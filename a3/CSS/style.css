@@ -1,0 +1,65 @@
+
+
+	a:link{
+
+	text-decoration: none;
+	
+	
+	}
+	
+
+	h1 {
+
+	color: red;
+	background-color: black;
+
+	}
+
+	q {
+	font-family: monospace;
+	}
+	
+
+	#red-title {
+	
+	color: red;
+	font-family: impact;
+	}
+
+	#skills {
+	color: yellow;
+	font-family: sans-serif;
+
+	}
+	
+	h2 {
+
+	background-color: black;	
+	color: white;
+	}
+
+	.Ace {
+	background-color: red;
+	color: white;
+	}
+	
+	.Ace:hover {
+	color: black
+
+	border-style: solid;
+
+    border-width: 500px;
+
+	}
+
+	address {
+	border: 5px dotted red;
+	}
+
+	body {
+	color: black;
+
+
+	}
+
+	
