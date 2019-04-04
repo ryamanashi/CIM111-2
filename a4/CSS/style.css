@@ -1,0 +1,165 @@
+
+
+html {
+height: 100%
+
+}
+
+body {
+
+font-size: 12px
+
+
+}
+
+.container {
+	display: grid;
+    grid-gap: 30px
+  }
+ /* Top section here*/
+
+
+  .Top{
+  	display: grid;
+  	grid-gap: 20px
+
+  	
+  }
+.head{
+
+background-image: "Head.jpg"
+color: white;
+
+display:grid;
+
+align-content: center;
+
+
+}
+
+.infobox{
+
+background-color: blue;
+align-items: center;
+align-content: center;
+color:white;
+}
+
+.Info{
+font-size: 50px;
+font-weight: 300;
+
+}
+
+/*main section here*/
+
+.main{
+display: grid;
+
+grid-template-areas: 
+
+	"item2 item1"
+
+	"item2 item3"	
+
+
+
+}
+
+  .item1 {
+    background-color: lightblue;
+    grid-area: item1;
+    margin:10px;
+    border: 1px solid white;
+  }
+  
+  .item2 {
+    background-color: yellow;
+    grid-area: item2;
+    margin:10px;
+    border: 1px solid white;
+  }
+  .li a:hover {
+
+  	text-decoration: underline;
+	color: black;
+
+  }
+  
+  .item3 {background-color: lightpink;
+    grid-area: item3;
+    margin:10px;
+    border: 1px solid white;
+   }
+    
+    
+  /*Photos section here*/
+
+  
+ .Photos{
+
+ display: grid;
+ grid-gap: 20px
+ grid-column: auto auto;
+
+ }
+
+ img{
+ width: 100%
+ height: 100%;
+
+ }
+
+ h2{
+ background: blue;
+ color:white;
+ }
+
+/*Media Quieres*/
+
+
+/*  SMALL DEVICES (phones, 600px and down) */
+
+/* @media only screen and (max-width: 600px) {...} */
+
+.main{
+
+grid-template-areas: 
+"item2"
+"item1"
+"item3"
+
+font-size:10px;
+}
+
+
+
+
+
+/* Medium DEVICES (Tablets, 992px and up) */
+
+/* @media only screen and (min-width: 992px) {...} */
+
+
+.main{
+
+grid-template-areas: 
+
+"item2 item1"
+"item3"
+}
+
+
+
+/* EXTRA LARGE DEVICES (large laptops and desktops, 1200px and up) */
+
+/* @media only screen and (min-width: 1200px) {...} */
+
+
+.main{
+	grid-template-areas: 
+
+"item2 item1"
+"item2 item3"
+}
+
