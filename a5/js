@@ -1,0 +1,53 @@
+$(document).ready(function() {
+
+
+
+  $("ingredients").on("click",function(){
+
+//creating an arry of ingredients 
+ 
+  var ingredients = ["Ham", "Garlic", "Lettuce", "Green Peas", "Egg", "Onions"]
+
+ // Loops through the array to print each ingredients.
+
+   for (int i = 0; i < ingredients.length; i++){
+  
+  console.log(ingredients[i])
+}
+
+
+$("#p1").mouseleave(function)({
+    alert("Oops! Where are you going!?");
+  });
+
+  $("#steps").click("#challenge", function(){
+
+  ("ol").hide()
+
+  $("p").html("h3")}
+ 
+  $("#result").click("Finish!", function() {
+
+  ("FriedRice.jpg").show(); }
+
+  
+  $("How").on("click", function(){ 
+
+  var how = confirm("Did you do well?")
+  if (Yes){
+    alert("Well Done");
+   }else{
+    alert("Try Again!")
+  }
+
+
+  }
+
+  $("#.more").mouseover(function)({
+
+  alert("You want to cook more?")    
+  }
+
+
+    
+});

@@ -1,0 +1,39 @@
+html {
+height: 100%
+
+}
+
+body {
+font: 12px
+background-color: lightgreen;
+
+}
+
+h1 {
+background-color: yellow;
+color: black ;
+font-family: monospace;
+}
+
+.ingredients {
+display: grid;
+grid-area: auto;
+}
+
+.Challenge {
+margin-left: 20px;
+border-style: style;
+background-color: lightblue;
+
+}
+
+ol {
+background-color:green;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+p {
+font-family: sans-serif;
+
+}
